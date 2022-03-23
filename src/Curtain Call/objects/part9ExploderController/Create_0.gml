@@ -1,0 +1,9 @@
+f = 0;
+angle = random(360);
+rotspeed = choose(-8, 8);
+apple1 = instance_create((room_width / 2) + lengthdir_x(32, angle + 90), (room_height / 2) + lengthdir_y(32, angle + 90), part9StillExploder);
+apple1.image_blend = make_colour_hsv(182, 166, 255);
+apple2 = instance_create((room_width / 2) + lengthdir_x(32, angle + 210), (room_height / 2) + lengthdir_y(32, angle + 210), part9StillExploder);
+apple2.image_blend = make_colour_hsv(190, 166, 255);
+apple3 = instance_create((room_width / 2) + lengthdir_x(32, angle + 330), (room_height / 2) + lengthdir_y(32, angle + 330), part9StillExploder);
+apple3.image_blend = make_colour_hsv(197, 166, 255);

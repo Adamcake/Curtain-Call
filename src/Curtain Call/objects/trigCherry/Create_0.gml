@@ -1,0 +1,6 @@
+/// @description  Animation + Inherited Event
+
+event_inherited();
+image_speed = 1/15;
+
+

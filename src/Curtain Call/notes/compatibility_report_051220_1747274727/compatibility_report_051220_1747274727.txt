@@ -1,0 +1,298 @@
+Converting GML script: ${project_dir}\scripts\play_sound\play_sound.gml
+Converted description /// @description  play_sound(SOUND soundFile)/// @param SOUND soundFile
+
+Converting GML script: ${project_dir}\scripts\update_bgm\update_bgm.gml
+Converted description /// @description  update_bgm(SOUND soundFile, BOOL loopTrack)/// @param SOUND soundFile
+/// @param  BOOL loopTrack
+
+Converting GML script: ${project_dir}\scripts\update_title\update_title.gml
+Converted description /// @description  update_title()
+
+Converting GML script: ${project_dir}\scripts\reset_triggers\reset_triggers.gml
+Converted description /// @description  reset_triggers()
+
+Converting GML script: ${project_dir}\scripts\draw_debug_ui\draw_debug_ui.gml
+Converted description /// @description  draw_debug_ui(INSTANCE player, NUMBER x, NUMBER y, COLOR drawColor, FONT drawFont)/// @param INSTANCE player
+/// @param  NUMBER x
+/// @param  NUMBER y
+/// @param  COLOR drawColor
+/// @param  FONT drawFont
+
+Converting GML script: ${project_dir}\scripts\die\die.gml
+Converted description /// @description  die()
+
+Converting GML script: ${project_dir}\scripts\flip\flip.gml
+Converted description /// @description  flip()
+
+Converting GML script: ${project_dir}\scripts\set_mask\set_mask.gml
+Converted description /// @description  set_mask()
+
+Converting GML script: ${project_dir}\scripts\load\load.gml
+Converted description /// @description  load (BOOL loadDeathTime, BOOL hardReloadFromFile)/// @param BOOL loadDeathTime
+/// @param  BOOL hardReloadFromFile
+
+Converting GML script: ${project_dir}\scripts\save\save.gml
+Converted description /// @description  save(BOOL saveLocation)/// @param BOOL saveLocation
+
+Converting GML script: ${project_dir}\scripts\new_game\new_game.gml
+Converted description /// @description  new_game()
+
+Converting GML script: ${project_dir}\scripts\create_save\create_save.gml
+Converted description /// @description  create_save()
+
+Converting GML script: ${project_dir}\scripts\init\init.gml
+Converted description /// @description  [Keybinds]
+
+Converting GML script: ${project_dir}\scripts\EaseLinear\EaseLinear.gml
+Converted description /// @description  EaseLinear(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\EaseInQuad\EaseInQuad.gml
+Converted description /// @description  EaseInQuad(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\EaseOutQuad\EaseOutQuad.gml
+Converted description /// @description  EaseOutQuad(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\EaseInOutQuad\EaseInOutQuad.gml
+Converted description /// @description  EaseInOutQuad(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\EaseInOutCubic\EaseInOutCubic.gml
+Converted description /// @description  EaseInOutCubic(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\EaseOutCubic\EaseOutCubic.gml
+Converted description /// @description  EaseOutCubic(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\EaseOutBack\EaseOutBack.gml
+Converted description /// @description  EaseOutBack(inputvalue,outputmin,outputmax,inputmax)/// @param inputvalue
+/// @param outputmin
+/// @param outputmax
+/// @param inputmax
+
+Converting GML script: ${project_dir}\scripts\star\star.gml
+Converted description /// @description  star(x,y,obj,perline,angle,speed)/// @param x
+/// @param y
+/// @param obj
+/// @param perline
+/// @param angle
+/// @param speed
+
+Font debugFont has been converted to font family Consolas (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\debugFont\debugFont.gms1.png
+Converting GML script: ${project_dir}\timelines\tCurtainCall\moment_1337.gml
+Converted description /// @description  epic hacker moment 1337
+
+Converting GML script: ${project_dir}\timelines\tCurtainCall\moment_2894.gml
+Converted description /// @description  6 frames before 2900
+
+Converting GML script: ${project_dir}\timelines\tCurtainCall\moment_2906.gml
+Converted description /// @description  6 frames before 2912
+
+Converting GML script: ${project_dir}\timelines\tCurtainCall\moment_2919.gml
+Converted description /// @description  6 frames before 2925
+
+Converting GML script: ${project_dir}\timelines\tCurtainCall\moment_4700.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\gravityUp\Collision_1905b395-3bd4-4590-8978-0610458c549b.gml
+Converted description /// @description  Flip if normal gravity
+
+Converting GML script: ${project_dir}\objects\gravityDown\Collision_1c37b4fd-5f54-4477-a0ac-e7b6a7347aa0.gml
+Converted description /// @description  Flip if reversed gravity
+
+Converting GML script: ${project_dir}\objects\apple\Create_0.gml
+Converted description /// @description  Animation
+
+Converting GML script: ${project_dir}\objects\blood\Create_0.gml
+Converted description /// @description  Set random sprite
+
+Converting GML script: ${project_dir}\objects\blood\Collision_50abe7c5-ab26-40de-9199-030c042b0e8f.gml
+Converted description /// @description  Stop on contact
+
+Converting GML script: ${project_dir}\objects\bloodEmitter\Create_0.gml
+Converted description /// @description  Set self-destruct timer
+
+Converting GML script: ${project_dir}\objects\bloodEmitter\Alarm_0.gml
+Converted description /// @description  Destroy
+
+Converting GML script: ${project_dir}\objects\bloodEmitter\Step_0.gml
+Converted description /// @description  Emit blood
+
+Converting GML script: ${project_dir}\objects\bullet\Alarm_0.gml
+Converted description /// @description  Expired
+
+Converting GML script: ${project_dir}\objects\bullet\Collision_63abe5dd-e568-42a6-9007-8044134048c9.gml
+Converted description /// @description  -> UserEvent0
+
+Converting GML script: ${project_dir}\objects\bullet\Other_10.gml
+Converted description /// @description  Destroy
+
+Converting GML script: ${project_dir}\objects\bullet\Other_0.gml
+Converted description /// @description  -> UserEvent0
+
+Converting GML script: ${project_dir}\objects\player\Create_0.gml
+Converted description /// @description  Initialization
+
+Converting GML script: ${project_dir}\objects\player\Step_2.gml
+Converted description /// @description  Debug: Change V-Align
+
+Converting GML script: ${project_dir}\objects\player\Step_0.gml
+Converted description /// @description  Movement
+
+Converting GML script: ${project_dir}\objects\player\Collision_e8314c36-115e-4989-ab5b-f1952879d0f8.gml
+Converted description /// @description  Death
+
+Converting GML script: ${project_dir}\objects\player\Collision_e7e20b8e-5500-4ac4-8048-4333b92d5776.gml
+Converted description /// @description  Platform Magic
+
+Converting GML script: ${project_dir}\objects\player\Collision_5e9b4641-31cb-44b1-a59f-296a3b5a2df0.gml
+Converted description /// @description  Collision (No Solids!)/// @param No Solids!
+
+Converting GML script: ${project_dir}\objects\player\Draw_0.gml
+Converted description /// @description  Drawing Self & Hitbox
+
+Converting GML script: ${project_dir}\objects\playerStart\Other_4.gml
+Converted description /// @description  Create Player
+
+Converting GML script: ${project_dir}\objects\trigCherry\Create_0.gml
+Converted description /// @description  Animation + Inherited Event
+
+Converting GML script: ${project_dir}\objects\trigger\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: ${project_dir}\objects\trigger\Collision_a5b4c72f-bc36-492e-9f63-804326eb77e9.gml
+Converted description /// @description  Activation
+
+Converting GML script: ${project_dir}\objects\roomSwitch\Create_0.gml
+Converted description /// @description  Setup
+
+Converting GML script: ${project_dir}\objects\roomSwitch\Collision_bfbfff77-0299-4070-a4e4-cceff9ff0735.gml
+Converted description /// @description  Go to room
+
+Converting GML script: ${project_dir}\objects\movingTriggerBase\Create_0.gml
+Converted description /// @description  Main Variables
+
+Converting GML script: ${project_dir}\objects\movingTriggerBase\Step_0.gml
+Converted description /// @description  Activation
+
+Converting GML script: ${project_dir}\objects\intersectSwitch\Create_0.gml
+Converted description /// @description  Setup
+
+Converting GML script: ${project_dir}\objects\savePoint\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: ${project_dir}\objects\savePoint\Alarm_0.gml
+Converted description /// @description  Reset cooldown
+
+Converting GML script: ${project_dir}\objects\savePoint\Step_0.gml
+Converted description /// @description  Save
+
+Converting GML script: ${project_dir}\objects\savePoint\Other_7.gml
+Converted description /// @description  Reset sprite
+
+Converting GML script: ${project_dir}\objects\world\Create_0.gml
+Converted description /// @description  Init
+
+Converting GML script: ${project_dir}\objects\world\Step_2.gml
+Converted description /// @description  Timer
+
+Converting GML script: ${project_dir}\objects\world\Step_0.gml
+Converted description /// @description  Keys
+
+Converting GML script: ${project_dir}\objects\world\Other_4.gml
+Converted description /// @description  Ensure correct FPS
+
+Converting GML script: ${project_dir}\objects\world\Draw_75.gml
+Converted description /// @description  Debug UI
+
+Converting GML script: ${project_dir}\objects\bossController\Alarm_1.gml
+Converted description /// @description  start song and timeline
+
+Converting GML script: ${project_dir}\objects\bossController\Alarm_0.gml
+Converted description /// @description  spawn intro
+
+Converting GML script: ${project_dir}\objects\bossController\Step_1.gml
+Converted description /// @description  stop if player is dead
+
+Converting GML script: ${project_dir}\objects\part2WooshEff\Step_0.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] = zoomRatio * (room_width/2) -> __view_set( e__VW.XView, 0, zoomRatio * (room_width/2) )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] = (__view_get( e__VW.XView, 0 ) / 800) * 608 -> __view_set( e__VW.YView, 0, (__view_get( e__VW.XView, 0 ) / 800) * 608 )
+Converted builtin - line 8: view_wview[0] = 800 - (__view_get( e__VW.XView, 0 ) * 2) -> __view_set( e__VW.WView, 0, 800 - (__view_get( e__VW.XView, 0 ) * 2) )
+Converted builtin - line 9: view_hview[0] = 608 - (__view_get( e__VW.YView, 0 ) * 2) -> __view_set( e__VW.HView, 0, 608 - (__view_get( e__VW.YView, 0 ) * 2) )
+
+Converting GML script: ${project_dir}\objects\part3ScreenBump\Step_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] = zoomRatio * (room_width/2) -> __view_set( e__VW.XView, 0, zoomRatio * (room_width/2) )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] = (__view_get( e__VW.XView, 0 ) / 800) * 608 -> __view_set( e__VW.YView, 0, (__view_get( e__VW.XView, 0 ) / 800) * 608 )
+Converted builtin - line 6: view_wview[0] = 800 - (__view_get( e__VW.XView, 0 ) * 2) -> __view_set( e__VW.WView, 0, 800 - (__view_get( e__VW.XView, 0 ) * 2) )
+Converted builtin - line 7: view_hview[0] = 608 - (__view_get( e__VW.YView, 0 ) * 2) -> __view_set( e__VW.HView, 0, 608 - (__view_get( e__VW.YView, 0 ) * 2) )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\part4p2ZoomEff\Step_2.gml
+Converted builtin - line 5: view_xview[0] = player.x - (view_wview[0] / 2) -> __view_set( e__VW.XView, 0, player.x - (view_wview[0] / 2) )
+Converted builtin - line 6: view_yview[0] = player.y - (view_hview[0] / 2) -> __view_set( e__VW.YView, 0, player.y - (view_hview[0] / 2) )
+Converted builtin - line 2: view_wview[0] = room_width  * size -> __view_set( e__VW.WView, 0, room_width  * size )
+Converted builtin - line 3: view_hview[0] = room_height * size -> __view_set( e__VW.HView, 0, room_height * size )
+Converted builtin - line 8: view_angle[0] = angle -> __view_set( e__VW.Angle, 0, angle )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\part4p2ZoomEff\Step_0.gml
+Converted builtin - line 23: view_xview[0] = startx - EaseOutBack(sf, 0, startx, 62) -> __view_set( e__VW.XView, 0, startx - EaseOutBack(sf, 0, startx, 62) )
+Converted builtin - line 58: view_xview[0] = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 24: view_yview[0] = starty - EaseOutBack(sf, 0, starty, 62) -> __view_set( e__VW.YView, 0, starty - EaseOutBack(sf, 0, starty, 62) )
+Converted builtin - line 59: view_yview[0] = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 60: view_wview[0] = room_width -> __view_set( e__VW.WView, 0, room_width )
+Converted builtin - line 61: view_hview[0] = room_height -> __view_set( e__VW.HView, 0, room_height )
+Converted builtin - line 57: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\part5ZoomController\Step_0.gml
+Converted builtin - line 6: view_xview[0] = x - (xscale / 2) -> __view_set( e__VW.XView, 0, x - (xscale / 2) )
+Converted builtin - line 7: view_yview[0] = y - (yscale / 2) -> __view_set( e__VW.YView, 0, y - (yscale / 2) )
+Converted builtin - line 8: view_wview[0] = xscale -> __view_set( e__VW.WView, 0, xscale )
+Converted builtin - line 9: view_hview[0] = yscale -> __view_set( e__VW.HView, 0, yscale )
+
+Missing audiogroup for sound: 'seJump' - setting to default audio group
+Missing audiogroup for sound: 'seJump2' - setting to default audio group
+Missing audiogroup for sound: 'seJump3' - setting to default audio group
+Missing audiogroup for sound: 'seDeath' - setting to default audio group
+Missing audiogroup for sound: 'seShoot' - setting to default audio group
+Missing audiogroup for sound: 'sndCurtainCall' - setting to default audio group
+Game speed set to 50
+Added compatibility script 'action/action_if_variable.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_wrap.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

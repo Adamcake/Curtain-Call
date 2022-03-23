@@ -1,0 +1,11 @@
+f = 0;
+depth = -4;
+image_speed = 4 / 50;
+image_index = 2 - (5 * 4 / 50);
+loopframes = 0;
+go = 0;
+g2f = false;
+g3w = false;
+g3f = 0;
+shoot = 0;
+shootframes = 0;

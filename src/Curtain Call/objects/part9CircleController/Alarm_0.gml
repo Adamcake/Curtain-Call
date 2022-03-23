@@ -1,0 +1,1 @@
+shrinkspeed = 0;

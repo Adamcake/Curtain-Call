@@ -1,0 +1,10 @@
+image_speed = 0.5;
+gravity = 0.41;
+falling = true;
+alarm[0] = 15;
+instance_create(x, y, part6DoruppiCloud);
+run = false;
+shoot = false;
+shootframes = 0;
+shotspeed = 8;
+turn_iframes = 0;

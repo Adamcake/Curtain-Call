@@ -1,0 +1,41 @@
+var i;
+if(f <= 39) {
+	var x1, x2, x3, x4, x5, y1, y2, y3, y4, y5, ease;
+	x1 = x + lengthdir_x(r, direction);
+	x2 = x + lengthdir_x(r, direction + 72);
+	x3 = x + lengthdir_x(r, direction + (72 * 2));
+	x4 = x + lengthdir_x(r, direction + (72 * 3));
+	x5 = x + lengthdir_x(r, direction + (72 * 4));
+	y1 = y + lengthdir_y(r, direction);
+	y2 = y + lengthdir_y(r, direction + 72);
+	y3 = y + lengthdir_y(r, direction + (72 * 2));
+	y4 = y + lengthdir_y(r, direction + (72 * 3));
+	y5 = y + lengthdir_y(r, direction + (72 * 4));
+
+	for(i = 0; i < applesperline; i += 1) {
+		line1[i].x = x1 + (x3 - x1) * i / applesperline;
+		line1[i].y = y1 + (y3 - y1) * i / applesperline;
+		line2[i].x = x2 + (x4 - x2) * i / applesperline;
+		line2[i].y = y2 + (y4 - y2) * i / applesperline;
+		line3[i].x = x3 + (x5 - x3) * i / applesperline;
+		line3[i].y = y3 + (y5 - y3) * i / applesperline;
+		line4[i].x = x4 + (x1 - x4) * i / applesperline;
+		line4[i].y = y4 + (y1 - y4) * i / applesperline;
+		line5[i].x = x5 + (x2 - x5) * i / applesperline;
+		line5[i].y = y5 + (y2 - y5) * i / applesperline;
+	}
+
+	ease = EaseOutQuad(f, 0, 1, 39);
+	direction = 270 + (180 * d * ease);
+	y = ystart + (ease * (ytarget - ystart));
+}
+
+for(i = 0; i < applesperline; i += 1) {
+	line1[i].image_blend = make_colour_hsv(((point_direction(x, y, line1[i].x, line1[i].y) * 255 / 360) + (f * 8)) mod 255, 240, 220 + (point_distance(x, y, line1[i].x, line1[i].y) * 30 / r));
+	line2[i].image_blend = make_colour_hsv(((point_direction(x, y, line2[i].x, line2[i].y) * 255 / 360) + (f * 8)) mod 255, 240, 220 + (point_distance(x, y, line2[i].x, line2[i].y) * 30 / r));
+	line3[i].image_blend = make_colour_hsv(((point_direction(x, y, line3[i].x, line3[i].y) * 255 / 360) + (f * 8)) mod 255, 240, 220 + (point_distance(x, y, line3[i].x, line3[i].y) * 30 / r));
+	line4[i].image_blend = make_colour_hsv(((point_direction(x, y, line4[i].x, line4[i].y) * 255 / 360) + (f * 8)) mod 255, 240, 220 + (point_distance(x, y, line4[i].x, line4[i].y) * 30 / r));
+	line5[i].image_blend = make_colour_hsv(((point_direction(x, y, line5[i].x, line5[i].y) * 255 / 360) + (f * 8)) mod 255, 240, 220 + (point_distance(x, y, line5[i].x, line5[i].y) * 30 / r));
+}
+
+f += 1;

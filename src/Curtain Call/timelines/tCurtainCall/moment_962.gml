@@ -1,0 +1,2 @@
+/// @description Small burst
+scrIntroBurstSmall();
